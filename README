@@ -3,3 +3,4 @@ install packages
 do database migrations
         npx sequelize-cli db:migrate
 add variables in the .env file
+to run the program, do nodemon app

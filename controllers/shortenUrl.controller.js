@@ -43,4 +43,14 @@ const deleteUrl=async(req,res)=>{
     res.status(500).json({ error: 'Internal server error' });
   }
 }
-module.exports={shortenUrl,redirect,deleteUrl}
+const getAll=async(req,res)=>{
+  try {
+    const { email } = req.params;
+    const urls = await URL.findAll({ where: { email: email } });
+    res.json(urls);
+  } catch (error) {
+    console.error('Error fetching URLs:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+}
+module.exports={shortenUrl,redirect,deleteUrl,getAll}

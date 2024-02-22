@@ -7,3 +7,6 @@
 {"level":"error","message":"Adding User: Invalid password","timestamp":"2024-02-22 18:33:46"}
 {"level":"error","message":"Adding User: User with email:beullarugero6@gmail.com exists","timestamp":"2024-02-22 18:33:59"}
 {"level":"error","message":"Login: secretOrPrivateKey must have a value","timestamp":"2024-02-22 18:34:34"}
+{"level":"error","message":"Login: secretOrPrivateKey must have a value","timestamp":"2024-02-22 18:34:56"}
+{"level":"error","message":"Login-pw: Invalid credentials from beullarugero6@gmail.com","timestamp":"2024-02-22 18:38:28"}
+{"level":"error","message":"Login: secretOrPrivateKey must have a value","timestamp":"2024-02-22 18:38:39"}

@@ -4,5 +4,6 @@ module.exports=app=>{
     router.post("/short",urls.shortenUrl)
     router.get("/:shortUrl",urls.redirect)
     router.delete("/:shortUrl",urls.deleteUrl)
+    router.get("all/:email",urls.getAll)
     app.use("/api/url",router)
 }
