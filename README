@@ -1,0 +1,5 @@
+install packages
+        npm install
+do database migrations
+        npx sequelize-cli db:migrate
+add variables in the .env file

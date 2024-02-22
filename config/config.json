@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "#Increaseby2.",
+    "database": "shortenUrl",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "#Increaseby2.",
+    "database": "shortenUrl",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "#Increaseby2.",
+    "database": "shortenUrl",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
